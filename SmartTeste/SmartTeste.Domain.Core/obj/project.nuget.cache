@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "/xbXFi6oW+OWx2OqatGdXFn1DqMmUDvTMBPNR7YQ50mO8h0hRVrQO1yWwsnXBEDNLMVE6YSYoYv1jiTgRA5N5Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Domain.Core\\SmartTeste.Domain.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Paulo\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
+    "C:\\Users\\Paulo\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\Paulo\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Paulo\\.nuget\\packages\\netdevpack\\6.0.1\\netdevpack.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

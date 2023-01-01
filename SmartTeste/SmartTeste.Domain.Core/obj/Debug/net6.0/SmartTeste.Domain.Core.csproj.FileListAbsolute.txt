@@ -1,0 +1,12 @@
+C:\Users\Paulo\source\repos\SmartTeste\SmartTeste.Domain.Core\bin\Debug\net6.0\SmartTeste.Domain.Core.deps.json
+C:\Users\Paulo\source\repos\SmartTeste\SmartTeste.Domain.Core\bin\Debug\net6.0\SmartTeste.Domain.Core.dll
+C:\Users\Paulo\source\repos\SmartTeste\SmartTeste.Domain.Core\bin\Debug\net6.0\SmartTeste.Domain.Core.pdb
+C:\Users\Paulo\source\repos\SmartTeste\SmartTeste.Domain.Core\obj\Debug\net6.0\SmartTeste.Domain.Core.csproj.AssemblyReference.cache
+C:\Users\Paulo\source\repos\SmartTeste\SmartTeste.Domain.Core\obj\Debug\net6.0\SmartTeste.Domain.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paulo\source\repos\SmartTeste\SmartTeste.Domain.Core\obj\Debug\net6.0\SmartTeste.Domain.Core.AssemblyInfoInputs.cache
+C:\Users\Paulo\source\repos\SmartTeste\SmartTeste.Domain.Core\obj\Debug\net6.0\SmartTeste.Domain.Core.AssemblyInfo.cs
+C:\Users\Paulo\source\repos\SmartTeste\SmartTeste.Domain.Core\obj\Debug\net6.0\SmartTeste.Domain.Core.csproj.CoreCompileInputs.cache
+C:\Users\Paulo\source\repos\SmartTeste\SmartTeste.Domain.Core\obj\Debug\net6.0\SmartTeste.Domain.Core.dll
+C:\Users\Paulo\source\repos\SmartTeste\SmartTeste.Domain.Core\obj\Debug\net6.0\refint\SmartTeste.Domain.Core.dll
+C:\Users\Paulo\source\repos\SmartTeste\SmartTeste.Domain.Core\obj\Debug\net6.0\SmartTeste.Domain.Core.pdb
+C:\Users\Paulo\source\repos\SmartTeste\SmartTeste.Domain.Core\obj\Debug\net6.0\ref\SmartTeste.Domain.Core.dll

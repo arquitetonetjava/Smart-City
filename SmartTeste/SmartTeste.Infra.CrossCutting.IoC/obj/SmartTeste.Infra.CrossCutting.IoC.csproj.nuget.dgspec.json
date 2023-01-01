@@ -1,0 +1,523 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.CrossCutting.IoC\\SmartTeste.Infra.CrossCutting.IoC.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Application\\SmartTeste.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Application\\SmartTeste.Application.csproj",
+        "projectName": "SmartTeste.Application",
+        "projectPath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Application\\SmartTeste.Application.csproj",
+        "packagesPath": "C:\\Users\\Paulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Domain\\SmartTeste.Domain.csproj": {
+                "projectPath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Domain\\SmartTeste.Domain.csproj"
+              },
+              "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.Data\\SmartTeste.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.Data\\SmartTeste.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Domain.Core\\SmartTeste.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Domain.Core\\SmartTeste.Domain.Core.csproj",
+        "projectName": "SmartTeste.Domain.Core",
+        "projectPath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Domain.Core\\SmartTeste.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\Paulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NetDevPack": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Domain\\SmartTeste.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Domain\\SmartTeste.Domain.csproj",
+        "projectName": "SmartTeste.Domain",
+        "projectPath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Domain\\SmartTeste.Domain.csproj",
+        "packagesPath": "C:\\Users\\Paulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Domain.Core\\SmartTeste.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Domain.Core\\SmartTeste.Domain.Core.csproj"
+              },
+              "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.CrossCutting.Bus\\SmartTeste.Infra.CrossCutting.Bus.csproj": {
+                "projectPath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.CrossCutting.Bus\\SmartTeste.Infra.CrossCutting.Bus.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "NetDevPack": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.CrossCutting.Bus\\SmartTeste.Infra.CrossCutting.Bus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.CrossCutting.Bus\\SmartTeste.Infra.CrossCutting.Bus.csproj",
+        "projectName": "SmartTeste.Infra.CrossCutting.Bus",
+        "projectPath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.CrossCutting.Bus\\SmartTeste.Infra.CrossCutting.Bus.csproj",
+        "packagesPath": "C:\\Users\\Paulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.CrossCutting.Bus\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Domain.Core\\SmartTeste.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Domain.Core\\SmartTeste.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "NetDevPack": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.CrossCutting.Identity\\SmartTeste.Infra.CrossCutting.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.CrossCutting.Identity\\SmartTeste.Infra.CrossCutting.Identity.csproj",
+        "projectName": "SmartTeste.Infra.CrossCutting.Identity",
+        "projectPath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.CrossCutting.Identity\\SmartTeste.Infra.CrossCutting.Identity.csproj",
+        "packagesPath": "C:\\Users\\Paulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.CrossCutting.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Domain\\SmartTeste.Domain.csproj": {
+                "projectPath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Domain\\SmartTeste.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "NetDevPack.Identity": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.CrossCutting.IoC\\SmartTeste.Infra.CrossCutting.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.CrossCutting.IoC\\SmartTeste.Infra.CrossCutting.IoC.csproj",
+        "projectName": "SmartTeste.Infra.CrossCutting.IoC",
+        "projectPath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.CrossCutting.IoC\\SmartTeste.Infra.CrossCutting.IoC.csproj",
+        "packagesPath": "C:\\Users\\Paulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.CrossCutting.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Application\\SmartTeste.Application.csproj": {
+                "projectPath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Application\\SmartTeste.Application.csproj"
+              },
+              "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Domain\\SmartTeste.Domain.csproj": {
+                "projectPath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Domain\\SmartTeste.Domain.csproj"
+              },
+              "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.CrossCutting.Identity\\SmartTeste.Infra.CrossCutting.Identity.csproj": {
+                "projectPath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.CrossCutting.Identity\\SmartTeste.Infra.CrossCutting.Identity.csproj"
+              },
+              "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.Data\\SmartTeste.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.Data\\SmartTeste.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.Data\\SmartTeste.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.Data\\SmartTeste.Infra.Data.csproj",
+        "projectName": "SmartTeste.Infra.Data",
+        "projectPath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.Data\\SmartTeste.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\Paulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Domain\\SmartTeste.Domain.csproj": {
+                "projectPath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Domain\\SmartTeste.Domain.csproj"
+              },
+              "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.CrossCutting.Identity\\SmartTeste.Infra.CrossCutting.Identity.csproj": {
+                "projectPath": "C:\\Users\\Paulo\\source\\repos\\SmartTeste\\SmartTeste.Infra.CrossCutting.Identity\\SmartTeste.Infra.CrossCutting.Identity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "NetDevPack.Identity": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

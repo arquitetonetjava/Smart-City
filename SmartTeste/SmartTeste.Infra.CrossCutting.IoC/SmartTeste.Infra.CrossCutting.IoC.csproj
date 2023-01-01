@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SmartTeste.Application\SmartTeste.Application.csproj" />
+    <ProjectReference Include="..\SmartTeste.Domain\SmartTeste.Domain.csproj" />
+    <ProjectReference Include="..\SmartTeste.Infra.CrossCutting.Identity\SmartTeste.Infra.CrossCutting.Identity.csproj" />
+    <ProjectReference Include="..\SmartTeste.Infra.Data\SmartTeste.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
